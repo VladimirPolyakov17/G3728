@@ -9,7 +9,7 @@ if(inputNum!=null)
   //парсим введенное число
   int number = int.Parse(inputNum);
   //Находим квадрат числа
-  int result = (int)Math.Pow(number,2);
+  int result = number*number;
   //Выводим данные в консоль
   Console.WriteLine(result);
 }
