@@ -12,20 +12,17 @@ Console.WriteLine("input yor nums: ");
 int num1 = int.Parse(Console.ReadLine() ?? "0");// Ввод первого числа
 int num2 = int.Parse(Console.ReadLine() ?? "0");// Ввод второго числа
 //сравнение возведённого в квадрат числа с другим числом
-if ((int)Math.Pow(num1, 2) == num2)
+TestSQRT(num1,num2);
+TestSQRT(num2,num1);
+
+void TestSQRT(int i, int j)
 {
-    Console.Write("да, число "+num2+" является степенью числа "+num1);//вывод согласия
-}
-else
-{
-    if ((int)Math.Pow(num2, 2) == num1)
+    if ((int)Math.Pow(i, 2) == j)
     {
-        Console.Write("да, число "+num1+" является степенью числа "+num2);//вывод согласия
+        Console.WriteLine("да, число " + j + " является квадратом числа " + i);
     }
     else
     {
-        Console.Write("Нет, числа "+num1+" и "+num2+" не являются чьей либо степенью");//вывод не согласия
+        Console.WriteLine("число " + j + " не является квадратом числа " + i);
     }
 }
-
-//void TestSQRT(int i, int j) - тест на квадратность. Нужно допилить.
