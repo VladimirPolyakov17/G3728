@@ -9,7 +9,6 @@ string? imputLine = Console.ReadLine();
 // Проверяем, чтобы данные не были пустыми
 if (imputLine != null)
 {
-//Вариант 2
 int imputNumber = int.Parse(imputLine);
 string outDayOfWeek = string.Empty;
 switch (imputNumber)
