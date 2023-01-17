@@ -22,3 +22,4 @@ if ((inputNum1 != null) && (inputNum2 != null))
     Console.Write("no");
   }
 }
+
