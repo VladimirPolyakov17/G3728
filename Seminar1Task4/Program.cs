@@ -3,7 +3,7 @@
 //44 5 78 -> 78
 //22 3 9 -> 22
 
-Console.WriteLine("input yor nums: ");
+Console.WriteLine("input your nums: ");
 //Cчитываем данные с консоли 1 число
 string? inputNum1 = Console.ReadLine();
 //Cчитываем данные с консоли 2 число
@@ -20,9 +20,9 @@ if(inputNum1!=null && inputNum2!=null && inputNum3!=null)
   int number2 = int.Parse(inputNum2);
   int number3 = int.Parse(inputNum3);
 
-  //Вводим новую переменную равную значению функции находящей максимальное число.
+  //Ввод переменной для нахождения максимального числа.
   int max = Math.Max(number1, Math.Max(number2, number3));
   
-  //Вывод на консоль максимальное число
+  //Вывод на консоль максимального числа
   Console.WriteLine("max=" +max);
 }
