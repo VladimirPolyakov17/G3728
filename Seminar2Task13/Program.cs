@@ -1,15 +1,13 @@
-﻿//Напишите программу, которая будет принимать на вход два числа и выводить, 
-//является ли второе число кратным первому. 
-//Если второе число некратно первому, то программа выводит остаток от деления.
+﻿char[]digit = Console.ReadLine().ToCharArray();
 
-int num1 = int.Parse(Console.ReadLine()??"0"); 
-int num2 = int.Parse(Console.ReadLine()??"0");
-int result = num2%num1;
-if(result==0) 
-{     
-  Console.WriteLine("Кратное"); 
+
+if(digit.Length > 3)
+{
+Console.WriteLine(digit[2]);
+int num = int.Parse(Console.ReadLine()??"0");
 }
-else 
-{ 
-  Console.WriteLine("Не кратно "+result); 
+
+else
+{
+    Console.WriteLine("Третьей цифры нет");
 }
