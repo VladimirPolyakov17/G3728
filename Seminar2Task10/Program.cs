@@ -7,7 +7,7 @@
 Console.Write("Введите трёхзначное число: ");
 int number = int.Parse(Console.ReadLine()??"0");
 //"Если значение более ста, то продолжаем, иначе выводим сообщение об ошибке"
-if (number >= 100)
+if (number >= 100 && number <= 1000)
 {
     //Уничтожаем хвостик после второй цифры
     while (number > 99)
@@ -22,5 +22,5 @@ if (number >= 100)
 else
 {
     //Вывод ошибки
-    Console.WriteLine("число не двухзначное!");
+    Console.WriteLine("число не трехзначное!");
 }
