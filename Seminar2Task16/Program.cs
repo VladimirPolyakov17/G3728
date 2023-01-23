@@ -1,12 +1,4 @@
 ﻿// Напишите программу, которая принимает на вход два числа и проверяет, является ли одно число квадратом другого.
-//Вариант 1. Недоделанный.
-// int num1 = int.Parse(Console.ReadLine()??"0")
-// int num2 = int.Parse(Console.ReadLine()??"0")
-// if(num1*num1==num2)
-// {
-//   Console.Write
-// }
-//Вариант 2. Верный.
 Console.WriteLine("input yor nums: ");
 // Вводим данные с консоли
 int num1 = int.Parse(Console.ReadLine() ?? "0");// Ввод первого числа
