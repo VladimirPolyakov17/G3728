@@ -23,13 +23,13 @@ double CalcLen(int x1, int x2, int y1, int y2)
 }
 
 //Вводим координаты точек
-int. coordX1 = ReadDate("Введите координату x1");
-int. coordX2 = ReadDate("Введите координату x2");
-int. coordУ1 = ReadDate("Введите координату y1");
-int. coordY2 = ReadDate("Введите координату y1");
+int coordX1 = ReadDate("Введите координату x1");
+int coordX2 = ReadDate("Введите координату x2");
+int coordY1 = ReadDate("Введите координату y1");
+int coordY2 = ReadDate("Введите координату y1");
 
 //Вычисляем длину
-double len = CalcLen(coordX1, coordX2, coordY1,coordY2)
+double len = CalcLen(coordX1, coordX2, coordY1,coordY2);
 
 //Выдаем результат
 PrintData("Расстояние между точками: ",len);
