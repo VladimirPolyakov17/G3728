@@ -17,4 +17,3 @@ else
 {
   Console.WriteLine("Цифра 2 больше 1: " +digit1 + " " + digit2);
 }
-
