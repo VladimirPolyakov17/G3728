@@ -11,7 +11,7 @@ int ReadDate(string msg)
   return int.Parse(Console.ReadLine() ?? "0");
 }
 
-// Метод определяет допустимого диапозона координат
+// Метод определяет допустимого диапозона координат точек по четверти
 void PrintQuterAnswer(int num)
 {
   if (num > 0 && num < 5)
@@ -20,7 +20,7 @@ void PrintQuterAnswer(int num)
   if(num == 2) Console.WriteLine("X > 0, Y < 0");
   if(num == 3) Console.WriteLine("X < 0, Y < 0");
   if(num == 4) Console.WriteLine("X < 0, Y > 0");
-}
-else Console.WriteLine("Вы ввели не номер четверти");
+  }
+  else Console.WriteLine("Вы ввели не номер четверти!");
 }
 
