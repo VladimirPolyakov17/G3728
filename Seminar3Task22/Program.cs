@@ -29,6 +29,7 @@ int num = ReadData("Введите N: ");
 
 //Собираем первую строчку таблицы
 string line1 = LineBuilder(num, 1);
+
 //Собираем вторую строчку таблицы
 string line2 = LineBuilder(num, 2);
 
