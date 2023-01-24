@@ -1,7 +1,7 @@
 ﻿//Задача №17
 //Напишите программу, которая принимает на вход координаты точки (X и Y), причём X ≠ 0 и Y ≠ 0 и выдаёт номер четверти плоскости, в которой находится эта точка.
-int coordX=ReadDate("Введите координату X");
-int coordY=ReadDate("Введите координату Y");
+int coordX = ReadDate("Введите координату X");
+int coordY = ReadDate("Введите координату Y");
 PrintQuterTest(coordX,coordY);
 
 //Сверху решение, чтобы не было как ниже многоразовых повторений
@@ -26,7 +26,7 @@ int ReadDate(string msg)
 
 }
 // Метод определяет четверть по координатам точки
-void PrintQuterTest()
+void PrintQuterTest(int X, int Y)
 {
   if(coordX > 0 && coordY > 0) Console.WriteLine("Точка в четверти 1");
   if(coordX > 0 && coordY < 0) Console.WriteLine("Точка в четверти 2");
