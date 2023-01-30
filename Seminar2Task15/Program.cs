@@ -6,7 +6,7 @@
 //Считываем с консоли число
 int day = int.Parse(Console.ReadLine() ?? "0");
 //Вводим ограничение на количество дней
-if (day > 7 && day <1)
+if (day > 7 || day <1)
 {
   Console.WriteLine("Не день недели");
 }
